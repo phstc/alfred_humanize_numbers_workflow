@@ -15,7 +15,7 @@ output = %{<?xml version="1.0"?><items>}
 
 result ||= number.humanize
 
-output += %{<item arg="#{number}"><title>#{result}</title></item>}
+output += %{<item arg="#{result}"><title>#{result}</title></item>}
 
 output += '</items>'
 
